@@ -719,6 +719,17 @@ If you're seeking a dedicated software developer with a strong educational found
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<script>
+
+const gulp = require('gulp');
+const uglify = require('gulp-uglify');
+
+gulp.task('compress', function () {
+  return gulp.src('src/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist'));
+});
+</script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
