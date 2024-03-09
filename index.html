@@ -729,6 +729,16 @@ gulp.task('compress', function () {
     .pipe(uglify())
     .pipe(gulp.dest('dist'));
 });
+
+const gulp = require('gulp');
+const cssnano = require('gulp-cssnano');
+
+gulp.task('compress', function () {
+  return gulp.src('src/*.css')
+    .pipe(cssnano())
+    .pipe(gulp.dest('dist'));
+});
+
 </script>
 
   <!-- Vendor JS Files -->
