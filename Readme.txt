@@ -56,7 +56,7 @@ Contact Information
 I'd love to connect with you! Feel free to reach out through:
 
 - Email:rethabileenno@gmail.com
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: 
 - Phone:0739647830
 
 Let's Connect!
@@ -65,7 +65,7 @@ Thank you for taking the time to explore my portfolio. I look forward to the pos
 
 Best regards,
 
-Rethabile Mohjapi
+Rethabile Mohapi
  URL
  
 
